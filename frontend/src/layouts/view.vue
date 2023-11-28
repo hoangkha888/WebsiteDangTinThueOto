@@ -1,6 +1,5 @@
 <template>
-    <TheHeader/>
-    <div class="container-fluid mt-3">
+    <div class="container-fluid mt-1">
         <div class="row">
             <router-view></router-view>
         </div>

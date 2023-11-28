@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import admin from './admin';
+import path from './path';
 
-const routes = [...admin];
+const routes = [...path];
 
 const router = createRouter({
     history: createWebHistory(),

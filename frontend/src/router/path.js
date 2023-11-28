@@ -1,4 +1,4 @@
-const admin = [
+const paths= [
     {
         path:"/admin",
         component: () => import("../layouts/admin.vue"),
@@ -34,8 +34,13 @@ const admin = [
                 name: "view-dangnhap",
                 component: () => import("../pages/views/login/dangnhap.vue")
             },
+            {
+                path: "dangky",
+                name: "view-dangky",
+                component: () => import("../pages/views//register/dangky.vue")
+            },
         ]
     }
 ];
 
-export default admin;
+export default paths;

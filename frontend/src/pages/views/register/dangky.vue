@@ -1,8 +1,13 @@
 <template>
     <div class="form-box">
         <div class="center">
-            <h1>Đăng nhập</h1>
+            <h1>Đăng ký</h1>
             <form method="post">
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Họ Tên</label>
+                </div>
                 <div class="txt_field">
                     <input type="text" required>
                     <span></span>
@@ -13,10 +18,13 @@
                     <span></span>
                     <label>Mật Khẩu</label>
                 </div>
-                <div class="pass">Quên Mật Khẩu?</div>
-                <input type="submit" value="Đăng nhập">
-                <div class="signup_link">
-                    Bạn chưa có tài khoản? <a href="#">Đăng ký</a>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Nhập lại Mật Khẩu</label>
+                </div>
+                <div class="btnregister" style="padding-bottom: 10%;">
+                    <input type="submit" value="Đăng ký">
                 </div>
             </form>
         </div>
