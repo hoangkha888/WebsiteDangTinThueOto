@@ -37,7 +37,12 @@ const paths= [
             {
                 path: "dangky",
                 name: "view-dangky",
-                component: () => import("../pages/views//register/dangky.vue")
+                component: () => import("../pages/views/register/dangky.vue")
+            },
+            {
+                path: "trangchu",
+                name: "view-trangchu",
+                component: () => import("../pages/views/trangchu/trangchu.vue")
             },
         ]
     }
