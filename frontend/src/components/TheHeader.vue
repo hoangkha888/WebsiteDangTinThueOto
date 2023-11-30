@@ -1,7 +1,7 @@
 <template>
     <div class="container-fuild">
         <div class="row text-white" style="padding-top: 0.3rem; border-bottom: 2px solid #ff0000;">
-            <div class="col-sm-9 align-items-center justify-content-sm-start ">
+            <div class="col-sm-9 ml-4 align-items-center justify-content-sm-start ">
                 <img src="../assets/img/logo.png" alt="logo" height="53" width="240">
             </div>
             <div class="col-sm-3 d-sm-flex align-items-center justify-content-sm-end ">

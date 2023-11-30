@@ -44,6 +44,7 @@
 </template>
 
 <style>
+
 .form-box:before {
     background-image: url("../../../assets/img/BackGround.jpeg");
     width: 100%;

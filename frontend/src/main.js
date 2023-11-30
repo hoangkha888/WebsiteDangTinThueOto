@@ -8,8 +8,9 @@ import {
     Button,
     message,
     List,
-    Menu
+    Menu,
 } from 'ant-design-vue'
+
 
 
 import 'ant-design-vue/dist/reset.css'
@@ -23,6 +24,7 @@ app.use(router);
 app.use(Button);
 app.use(List);
 app.use(Menu);
+
 
 app.mount('#app');
 

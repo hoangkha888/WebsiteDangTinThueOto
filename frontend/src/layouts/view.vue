@@ -1,7 +1,7 @@
 <template>
      <TheHeader v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
 
-    <div class="container-fluid mt-1">
+    <div class="container-fluid p-0">
         <div class="row">
             <router-view></router-view>
         </div>
@@ -23,7 +23,7 @@
         components:{
         TheHeader,
         TheFooter,
-        },
+        }
                 
     }
 </script>
