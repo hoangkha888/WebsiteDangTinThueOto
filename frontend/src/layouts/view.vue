@@ -1,18 +1,31 @@
 <template>
+     <TheHeader v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
+
     <div class="container-fluid mt-1">
         <div class="row">
             <router-view></router-view>
         </div>
     </div>
+    <TheFooter v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
 </template>
 
 <script>
     import TheHeader from '../components/TheHeader.vue';
+    import TheFooter from '../components/TheFooter.vue';
+    // import  abc from '../pages/views/login/dangnhap.vue'
 
     export default{
+        provide() {
+            return {
+            route: this.$route,
+            };
+        },
         components:{
-            TheHeader,
-        }
+        TheHeader,
+        TheFooter,
+        },
+                
     }
 </script>
+
 

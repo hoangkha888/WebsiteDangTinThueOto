@@ -41,7 +41,7 @@
     .btnlogin{
         height: 45px;
         width: 128px;
-        margin-rightt: 20px;
+        margin-right: 20px;
         background-image: linear-gradient(to bottom, #FF4121 0%, #F83F3F  50%);
         margin: 10px;
         padding: 5px;
