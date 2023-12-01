@@ -1,6 +1,6 @@
 <template>
     
-        <div class="container-fluid text-center text-md-start mt-5 position-absolute top-100 start-50 translate-middle">
+        <div class="container-fluid text-center text-md-start mt-5 bottom-0">
         <!-- Grid row -->
             <div class="row mt-3">
                 <!-- Grid column -->

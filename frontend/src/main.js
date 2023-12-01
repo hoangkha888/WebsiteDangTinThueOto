@@ -18,12 +18,17 @@ import 'bootstrap/dist/css/bootstrap-grid.min.css'
 import 'bootstrap/dist/css/bootstrap-utilities.min.css'
 import './static/fontawesome2/css/all.min.css'
 
+//vue slide
+import VueSplide from '@splidejs/vue-splide';
+import '@splidejs/vue-splide/css';
+
 const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 app.use(Button);
 app.use(List);
 app.use(Menu);
+app.use(VueSplide);
 
 
 app.mount('#app');

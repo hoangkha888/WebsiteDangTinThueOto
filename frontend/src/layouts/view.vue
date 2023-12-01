@@ -6,7 +6,7 @@
             <router-view></router-view>
         </div>
     </div>
-    <TheFooter v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
+        <TheFooter v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
 </template>
 
 <script>

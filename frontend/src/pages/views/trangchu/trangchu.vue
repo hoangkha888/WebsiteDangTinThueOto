@@ -8,39 +8,117 @@
       <li><a href="#">Feedback</a></li>
     </ul>
   </nav>
-  <div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="https://img.pikbest.com/backgrounds/20220119/blue-creative-background-of-technology-car_6241760.jpg!bw700" style="width:100%">
-      <div class="text">Caption Text</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-car-banner-background-image_547203.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="https://img.lovepik.com/photo/40028/4473.jpg_wh860.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
-    </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <!-- slice show -->
+  <div class="slide">
+    <Splide :options="options" aria-label="My Favorite Images">
+      <SplideSlide>
+        <img
+          src="https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-car-banner-background-image_547203.jpg"
+          alt="Sample 1">
+      </SplideSlide>
+      <SplideSlide>
+        <img
+          src="https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-atmospheric-car-trade-fair-poster-background-image_138223.jpg"
+          alt="Sample 2">
+      </SplideSlide>
+    </Splide>
   </div>
-  <br>
 
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+  <!-- khu vực -->
+  <div class="title" style="padding-top:20px ;margin-left: 18px;">
+    <h2 style="color: #F83F3F;">Khu vực</h2>
   </div>
+  <div class="khuvuc">
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Hải Châu</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Sơn Trà</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Thanh Khê</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Cẩm Lệ</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Liên Chiểu</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Ngũ Hành sơn</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="#">
+        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+      </a>
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Hòa Vang</a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- tin xe nổi bật -->
+  <div class="title" style="padding-top:20px ;margin-left: 18px;">
+    <h2 style="color: #F83F3F;">XE CHO THUÊ NỔI BẬT</h2>
+  </div>
+
+  <div class="content">
+    <div class="left">
+      <div class="xe1">
+          <div class="avt">
+              <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="">
+          </div>
+          <div class="inforxe">
+              <h3>Cho thuê xe honda giá rẻ</h3>
+              <p>Thủ tục thuê xe nhanh gọn </p>
+              <h3>2.999.999đ</h3>
+              <button>Thuê xe ngay</button>
+          </div>
+      </div>
+      <div class="xe2">
+        <p>Column 2</p>
+      </div>
+      <div class="xe3">
+        <p>Column 3</p>
+      </div>
+    </div>
+    <div class="right">Right Content</div>
+  </div>
+
+
 </template>
 
 <style>
@@ -138,120 +216,105 @@ a:hover {
 
 }
 
-/* slice show */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+/* splide show */
+.slide {
   width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.splide__slide img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* khu vụcư */
+
+.khuvuc {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.khuvuc .card {
+  padding: 0.5em;
+}
+
+.khuvuc .card img {
+
+  height: 225px;
+  width: 165px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-body {
+  margin-top: 20px;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.card-body a {
+  color: #F83F3F;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+
+/* tin nổi bật */
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
 }
 
-.active,
-.dot:hover {
-  background-color: #717171;
+.content .left{
+  background-color: #F83F3F;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+.content .left .xe1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
 }
 
-@keyframes fade {
-  from {
-    opacity: .4
-  }
+.content .left .xe1 .avt img{
+  height: 190px;
+  width: 350px;
+}
 
-  to {
-    opacity: 1
-  }
+.content .left .xe1 .inforxe{
+  padding-left: 50px;
+}
+
+
+.content .right{
+  background-color: #1b9bff;
 }
 </style>
 
 
-<script>
-let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+<script>
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  components: {
+    Splide,
+    SplideSlide,
+  },
+
+  setup() {
+    const options = {
+      rewind: true,
+      gap: '1rem',
+    };
+
+    return { options };
+  },
+});
 </script>
