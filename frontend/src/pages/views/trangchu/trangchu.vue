@@ -1,11 +1,11 @@
 <template>
   <nav>
     <ul>
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Feedback</a></li>
+      <li><a href="#">TRANG CHỦ</a></li>
+      <li><a href="#">GIỚI THIỆU</a></li>
+      <li><a href="#">DỊCH VỤ</a></li>
+      <li><a href="#">TIN TỨC</a></li>
+      <li><a href="#">LIÊN HỆ</a></li>
     </ul>
   </nav>
   <!-- slice show -->
@@ -161,6 +161,34 @@
 
       </div>
     </div>
+  </div>
+
+  <!-- tin tức -->
+  <div class="title" style="padding-top:20px ;margin-left: 18px;">
+    <h2 style="color: #F83F3F;">TIN TỨC</h2>
+  </div>
+  <div class="tintuc">
+    <div class="col">
+        <img src="../../../assets/img/758cc4f3-20221031_044012.jpg" alt="">
+        <h3>Lộ diện thông số kỹ thuật của Mazda 2019</h3>
+        <P>Ngày Đăng: 11/09/2019</P>
+        <p>Thông tin này xuất phát từ trang web nổi tiếng của tờ báo pháp, Cho đến thời điểm này, thương hiệu Nhật Mazda đã giới thiệu tới thị trường tới hơn 40 mẫu xe Mazda 3 khác nhau với nhiều biến thể, từ sedan, hatchback đến coupe hay wagon....</p>
+    </div>
+    
+    <div class="col">
+        <img src="../../../assets/img/758cc4f3-20221031_044012.jpg" alt="">
+        <h3>Lộ diện thông số kỹ thuật của Mazda 2019</h3>
+        <P>Ngày Đăng: 11/09/2019</P>
+        <p>Thông tin này xuất phát từ trang web nổi tiếng của tờ báo pháp, Cho đến thời điểm này, thương hiệu Nhật Mazda đã giới thiệu tới thị trường tới hơn 40 mẫu xe Mazda 3 khác nhau với nhiều biến thể, từ sedan, hatchback đến coupe hay wagon....</p>
+    </div>
+
+    <div class="col">
+        <img src="../../../assets/img/758cc4f3-20221031_044012.jpg" alt="">
+        <h3>Lộ diện thông số kỹ thuật của Mazda 2019</h3>
+        <P>Ngày Đăng: 11/09/2019</P>
+        <p>Thông tin này xuất phát từ trang web nổi tiếng của tờ báo pháp, Cho đến thời điểm này, thương hiệu Nhật Mazda đã giới thiệu tới thị trường tới hơn 40 mẫu xe Mazda 3 khác nhau với nhiều biến thể, từ sedan, hatchback đến coupe hay wagon....</p>
+    </div>
+
   </div>
 </template>
 
@@ -370,7 +398,19 @@ a:hover {
   text-align: center;
 }
 
+.tintuc{
+  display: flex;
+  float: left;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 
+.tintuc .col img{
+  height: 300px;
+  width: 380px;
+}
 
 </style>
 
