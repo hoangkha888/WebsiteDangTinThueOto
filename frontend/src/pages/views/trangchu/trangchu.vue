@@ -98,27 +98,70 @@
   <div class="content">
     <div class="left">
       <div class="xe1">
-          <div class="avt">
-              <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="">
+        <div class="avt">
+          <div class="rank">
+            <h5 style="color: white;font-size: larger;">02</h5>
           </div>
-          <div class="inforxe">
-              <h3>Cho thuê xe honda giá rẻ</h3>
-              <p>Thủ tục thuê xe nhanh gọn </p>
-              <h3>2.999.999đ</h3>
-              <button>Thuê xe ngay</button>
-          </div>
+          <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="">
+        </div>
+        <div class="inforxe">
+          <h3>Cho thuê xe honda giá rẻ</h3>
+          <p>Thủ tục thuê xe nhanh gọn </p>
+          <h3>2.999.999đ</h3>
+          <button>Thuê xe ngay</button>
+        </div>
       </div>
+
+      <div class="xe1" style="padding-top: 10px;">
+        <div class="avt">
+          <div class="rank">
+            <h5 style="color: white;font-size: larger;">03</h5>
+          </div>
+          <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="">
+        </div>
+        <div class="inforxe">
+          <h3>Cho thuê xe honda giá rẻ</h3>
+          <p>Thủ tục thuê xe nhanh gọn </p>
+          <h3>2.999.999đ</h3>
+          <button>Thuê xe ngay</button>
+        </div>
+      </div>
+
+      <div class="xe1" style="padding-top: 10px;">
+        <div class="avt">
+          <div class="rank">
+            <h5 style="color: white;font-size: larger;">04</h5>
+          </div>
+          <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="">
+        </div>
+        <div class="inforxe">
+          <h3>Cho thuê xe honda giá rẻ</h3>
+          <p>Thủ tục thuê xe nhanh gọn </p>
+          <h3>2.999.999đ</h3>
+          <button>Thuê xe ngay</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="right">
       <div class="xe2">
-        <p>Column 2</p>
-      </div>
-      <div class="xe3">
-        <p>Column 3</p>
+        <div class="inforxe2" style="padding-left:10px ;">
+          <h3>Cho thuê xe Audi A6 Đời mới nhất</h3>
+          <h3 style="color: #F83F3F;">2.999.999đ</h3>
+        </div>
+
+        <div class="avt2">
+          <div class="rank2">
+            <h5 style="font-size: xx-large;color: white;">01</h5>
+          </div>
+          <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="">
+        </div>
+
+        <button>Thuê xe ngay</button>
+
       </div>
     </div>
-    <div class="right">Right Content</div>
   </div>
-
-
 </template>
 
 <style>
@@ -268,32 +311,67 @@ a:hover {
   height: auto;
 }
 
-.content .left{
-  background-color: #F83F3F;
+.content .left {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.content .left .xe1{
+.content .left .xe1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: auto;
+  /* border: 1px solid silver; */
 }
 
-.content .left .xe1 .avt img{
+.content .left .xe1 .avt .rank {
+  height: 35px;
+  width: 40px;
+  background-color: #F83F3F;
+  position: absolute;
+  text-align: center;
+}
+
+
+.content .left .xe1 .avt img {
   height: 190px;
   width: 350px;
 }
 
-.content .left .xe1 .inforxe{
+
+.content .left .xe1 .inforxe {
   padding-left: 50px;
 }
 
-
-.content .right{
-  background-color: #1b9bff;
+.content .left .xe1 .inforxe button {
+  background-color: #F83F3F;
+  color: aliceblue;
 }
+
+.content .right {
+  width: 670px;
+  height: 390px;
+}
+
+.content .right .xe2 button{
+  position: absolute;
+  left: 70%;
+  background-color: #F83F3F;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+
+.content .right .xe2 .avt2 .rank2{
+  height: 55px;
+  width: 60px;
+  background-color: #F83F3F;
+  position: absolute;
+  text-align: center;
+}
+
+
+
 </style>
 
 
