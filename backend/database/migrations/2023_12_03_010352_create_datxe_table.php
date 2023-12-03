@@ -13,13 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('thuexe', function (Blueprint $table) {
-            $table->id();
-            $table->date('ngaynhan');
-            $table->date('ngaytra');
-            $table->string('diachigiaoxe');
-            $table->boolean('trangthaiduyet');
-            $table->boolean('trangthaihuy');
+        Schema::create('datxe', function (Blueprint $table) {
+            $table->id('MaDatXe');
+            $table->date('NgayThue');
+            $table->date('NgayTra');
+            $table->string('TrangThai');
             $table->timestamps();
         });
     }
@@ -31,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('thuexe');
+        Schema::dropIfExists('datxe');
     }
 };

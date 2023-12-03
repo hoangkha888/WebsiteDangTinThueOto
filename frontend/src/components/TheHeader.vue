@@ -6,12 +6,12 @@
             </div>
             <div class="col-sm-3 d-sm-flex align-items-center justify-content-sm-end ">
                 <div class="boxbtnlogin">
-                    <button class="btnlogin">
+                    <button @click="login" class="btnlogin">
                         <span style="font-size: 16px;">Đăng nhập</span>
                     </button>
                 </div>
                 <div class="boxbtnregister">
-                    <button class="btnlogin">
+                    <button @click="register" class="btnlogin">
                         <span style="font-size: 16px;">Đăng ký</span>
                     </button>
                 </div>
@@ -62,3 +62,16 @@
     }
          
 </style>
+
+<script>
+export default {
+  methods: {
+    login() {
+      this.$router.push({ name: "view-dangnhap" });
+    },
+    register(){
+        this.$router.push({ name: "view-dangky" });
+    }
+  }
+};
+</script>

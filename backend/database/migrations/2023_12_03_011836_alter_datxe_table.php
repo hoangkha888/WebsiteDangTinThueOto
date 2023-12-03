@@ -13,10 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tenloaixe', function (Blueprint $table) {
-            $table->id();
-            $table->string('tenloaixe');
-            $table->timestamps();
+        Schema::table('datxe', function (Blueprint $table) {
+            $table->unsignedBigInteger('fk_MaNguoiDung');
+            $table->unsignedBigInteger('fk_MaXe');
+            $table->foreign('fk_MaNguoiDung')->references('MaNguoiDung')->on('nguoidung');
+            $table->foreign('fk_MaXe')->references('MaXe')->on('xe');
         });
     }
 
@@ -27,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tenloaixe');
+        //
     }
 };

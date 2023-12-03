@@ -13,12 +13,12 @@
     <Splide :options="options" aria-label="My Favorite Images">
       <SplideSlide>
         <img
-          src="https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-car-banner-background-image_547203.jpg"
+          src="../../../assets/img/slider_1.jpeg"
           alt="Sample 1">
       </SplideSlide>
       <SplideSlide>
         <img
-          src="https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-atmospheric-car-trade-fair-poster-background-image_138223.jpg"
+          src="../../../assets/img/slider_2.jpg"
           alt="Sample 2">
       </SplideSlide>
     </Splide>
@@ -40,7 +40,7 @@
 
     <div class="card" style="width: 18rem;">
       <a href="#">
-        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+        <img src="../../../assets/img/758cc4f3-20221031_044012.jpg" alt="Google logo">
       </a>
       <div class="card-body">
         <a href="#" class="btn btn-primary">Sơn Trà</a>
@@ -48,7 +48,7 @@
     </div>
     <div class="card" style="width: 18rem;">
       <a href="#">
-        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+        <img src="../../../assets/img/h--1--1691297078-585-width740height555.jpeg" alt="Google logo">
       </a>
       <div class="card-body">
         <a href="#" class="btn btn-primary">Thanh Khê</a>
@@ -56,7 +56,7 @@
     </div>
     <div class="card" style="width: 18rem;">
       <a href="#">
-        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+        <img src="../../../assets/img/xe-dich-vu-4-cho-da-nang.jpg" alt="Google logo">
       </a>
       <div class="card-body">
         <a href="#" class="btn btn-primary">Cẩm Lệ</a>
@@ -72,7 +72,7 @@
     </div>
     <div class="card" style="width: 18rem;">
       <a href="#">
-        <img src="../../../assets/img/Toyota-vios-2019.jpg" alt="Google logo">
+        <img src="../../../assets/img/W7hq-r0fD-mot-so-dieu-can-biet-truoc-khi-thue-xe-o-to-tu-lai-tai-da-nang-2.jpg" alt="Google logo">
       </a>
       <div class="card-body">
         <a href="#" class="btn btn-primary">Ngũ Hành sơn</a>
@@ -295,7 +295,7 @@ a:hover {
 }
 
 .splide__slide img {
-  height: 300px;
+  height: 430px;
   width: 100%;
   object-fit: cover;
   display: block;

@@ -22,7 +22,8 @@ const paths= [
                 path: "thongke",
                 name: "admin-thongke",
                 component: () => import("../pages/admin/thongke/index.vue")
-            }
+            },
+           
         ]
     },
     {
@@ -43,6 +44,11 @@ const paths= [
                 path: "trangchu",
                 name: "view-trangchu",
                 component: () => import("../pages/views/trangchu/trangchu.vue")
+            },
+            {
+                path: "xe",
+                name: "view-xe",
+                component: () => import("../pages/views/xemchitiet/chitiet.vue")
             },
         ]
     }
