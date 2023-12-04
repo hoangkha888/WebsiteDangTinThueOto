@@ -30,30 +30,124 @@
                 <img loading="lazy" alt="Cho thuê xe tự lái MAZDA 2 2023"
                     src="https://n1-pstg.mioto.vn/cho_thue_xe_o_to_tu_lai_thue_xe_du_lich_hochiminh/mazda_2_2023/p/g/2023/06/04/17/2je7c7T86i5hMImkAdg_fA.jpg">
             </div>
+            <div class="group-name">
+                <h3 style="font-weight: 700; font-size: 2rem;">MAZDA 2 2023 đời mới nhất hiện nay</h3>
+                <div class="group-action d-flex-center-btw">
+                    <div class="shared">
+                        <div class="wrap-svg wrap-ic share" style="border: none; display: flex;">
+                            <i class="fa-solid fa-star" style="color: yellow;"></i>
+                            <span class="info">5.0</span>
+                        </div>
+                        <div class="fav-item wrap-ic wrap-svg"><i class="fa-thin fa-heart"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="line-page"></div>
+            <div class="info-car-desc">
+                <h6 style="margin-top: 24px; font-size: 1.25rem; font-weight: 600;">Đặc điểm và các tính năng</h6>
+                <div class="features-car">
+                    <ul>
+                        <li> <i class="fa-light fa-person-seat" style="width: 24px; height: 24px; color: black;"></i> Số ghế: <span>10</span></li>
+                        <li> <i class="fa-light fa-gas-pump"></i> Nhiên liệu: <span>Xăng</span></li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/map-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Bản đồ</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/bluetooth-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Bluetooth</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/dash_camera-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Camera hành trình</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/reverse_camera-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Camera lùi</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/impact_sensor-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Cảm biến va chạm</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/head_up-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Cảnh báo tốc độ</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/gps-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Định vị GPS</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/usb-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Khe cắm USB</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/spare_tire-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Lốp dự phòng</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/dvd-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Màn hình DVD</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/etc-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> ETC</li>
+                        <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/airbags-v2.png"
+                                alt="Mioto - Thuê xe tự lái"> Túi khí an toàn</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="line-page"></div>
+
+            <div class="info-car-desc" id="papers">
+                <h6 class="df-align-center" style="margin-bottom: 24px;font-size: 1.25rem;font-weight: 600;">Yêu cầu</h6>
+                <div class="required-papers">
+                    <div class="required-papers__item">
+                        <div class="type__item">
+                            
+                            <p class="font-12">Phải có 1 trong 2 loại</p>
+                        </div>
+                        <div class="type-content"><img loading="lazy"
+                                src="https://n1-cstg.mioto.vn/v4/p/m/icons/papers/gplx_cccd.png">
+                            <div class="type-name">
+                                <p>GPLX &amp; CCCD gắn chip (đối chiếu)</p>
+                            </div>
+                        </div>
+                        <div class="type-content"><img loading="lazy"
+                                src="https://n1-cstg.mioto.vn/v4/p/m/icons/papers/gplx_passport.png">
+                            <div class="type-name">
+                                <p>GPLX (đối chiếu) &amp; Passport (giữ lại)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-page"></div>
+
+            <div class="info-car-desc">
+                <h6 style="margin-bottom: 24px;font-size: 1.25rem;font-weight: 600;">Điều khoản</h6>
+                <pre class="hide" style="position: relative;color: #767676;">
+Quy định khác:
+◦ Sử dụng xe đúng mục đích.
+◦ Không sử dụng xe vào mục đích phi pháp, trái pháp luật.
+◦ Không sửa dụng xe thuê để cầm cố, thế chấp.
+◦ Không hút thuốc, nhả kẹo cao su, xả rác trong xe.
+◦ Không chở hàng quốc cấm dễ cháy nổ.
+◦ Không chở hoa quả, thực phẩm nặng mùi trong xe.
+◦ Khách hàng vui lòng vệ sinh xe sạch sẽ.
+                </pre>
+            </div>
+
         </div>
+
+
+        <!-- class right -->
         <div class="right">
             <div class="rent-box" id="cardetail" style="position: relative;">
-                <div class="price">
-                    <h4>746K/ngày</h4>
-                </div>
                 <div class="date-time-form ">
                     <div class="form-item"><label>Nhận xe </label>
                         <div class="wrap-date-time">
-                            <div class="wrap-date"><span class="value">04/12/2023</span></div>
-                            <div class="wrap-time"><span class="value">21:00</span></div>
+                            <VueDatePicker v-model="date" locale="vi" placeholder="Chọn ngày" format="dd/MM/yyyy">
+                            </VueDatePicker>
                         </div>
                     </div>
                     <div class="line"></div>
                     <div class="form-item"><label>Trả xe</label>
                         <div class="wrap-date-time">
-                            <div class="wrap-date"><span class="value">05/12/2023</span></div>
-                            <div class="wrap-time"><span class="value">20:00</span></div>
+                            <div class="wrap-date"><span class="value">
+                                    <div class="wrap-date-time">
+                                        <VueDatePicker v-model="date" locale="vi" placeholder="Chọn ngày"
+                                            format="dd/MM/yyyy">
+                                        </VueDatePicker>
+                                    </div>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="dropdown-form"><label>Địa điểm giao xe</label>
                     <div class="wrap-form "><span class="value">Quận 5, Hồ Chí Minh</span></div>
-                    <p class="note">Rất tiếc. chủ xe không hỗ trợ giao xe tận nơi</p>
                 </div>
                 <div class="line-page"></div>
                 <div class="price-container">
@@ -70,28 +164,13 @@
                         <p>Tổng cộng</p>
                         <p class="cost"><span>813 150đ </span>x&nbsp;1&nbsp;ngày</p>
                     </div>
-                    <div class="promotion">
-                        <div class="wrap-svg"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none">
-                                <path
-                                    d="M21.3 10.8394C21.69 10.8394 22 10.5294 22 10.1394V9.20938C22 5.10938 20.75 3.85938 16.65 3.85938H7.35C3.25 3.85937 2 5.10938 2 9.20938V9.67938C2 10.0694 2.31 10.3794 2.7 10.3794C3.6 10.3794 4.33 11.1094 4.33 12.0094C4.33 12.9094 3.6 13.6294 2.7 13.6294C2.31 13.6294 2 13.9394 2 14.3294V14.7994C2 18.8994 3.25 20.1494 7.35 20.1494H16.65C20.75 20.1494 22 18.8994 22 14.7994C22 14.4094 21.69 14.0994 21.3 14.0994C20.4 14.0994 19.67 13.3694 19.67 12.4694C19.67 11.5694 20.4 10.8394 21.3 10.8394ZM9 8.87938C9.55 8.87938 10 9.32938 10 9.87938C10 10.4294 9.56 10.8794 9 10.8794C8.45 10.8794 8 10.4294 8 9.87938C8 9.32938 8.44 8.87938 9 8.87938ZM15 15.8794C14.44 15.8794 13.99 15.4294 13.99 14.8794C13.99 14.3294 14.44 13.8794 14.99 13.8794C15.54 13.8794 15.99 14.3294 15.99 14.8794C15.99 15.4294 15.56 15.8794 15 15.8794ZM15.9 9.47937L9.17 16.2094C9.02 16.3594 8.83 16.4294 8.64 16.4294C8.45 16.4294 8.26 16.3594 8.11 16.2094C7.82 15.9194 7.82 15.4394 8.11 15.1494L14.84 8.41938C15.13 8.12938 15.61 8.12938 15.9 8.41938C16.19 8.70938 16.19 9.18937 15.9 9.47937Z"
-                                    fill="#263D2A"></path>
-                            </svg></div>
-                        <p>Sử dụng mã khuyến mãi</p>
-                    </div>
                     <div class="line-page"></div>
                     <div class="price-item total">
                         <p style="font-size: 1rem;font-weight: 800;">Thành tiền</p>
                         <p class="cost"><span>813 150đ</span></p>
                     </div>
-                </div><a class="btn btn-primary btn--m width-100">
-                    <div class="wrap-svg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12.9733 7.70015L8.46667 14.2668C8.29334 14.5268 8.01335 14.6668 7.71335 14.6668C7.62002 14.6668 7.52667 14.6535 7.43334 14.6268C7.05334 14.5068 6.79335 14.1668 6.79335 13.7735V10.0135C6.79335 9.86015 6.64667 9.72682 6.46667 9.72682L3.78001 9.6935C3.44001 9.6935 3.12668 9.50016 2.97335 9.20682C2.82668 8.92016 2.84668 8.5735 3.03335 8.30017L7.53335 1.7335C7.76001 1.40016 8.18001 1.25349 8.56668 1.37349C8.94668 1.49349 9.20668 1.83349 9.20668 2.22682V5.98683C9.20668 6.14017 9.35335 6.2735 9.53335 6.2735L12.22 6.30682C12.56 6.30682 12.8733 6.49349 13.0267 6.79349C13.1733 7.08016 13.1533 7.42682 12.9733 7.70015Z"
-                                fill="#FFC634"></path>
-                        </svg></div>CHỌN THUÊ
-                </a>
+                </div>
+                <a class="btn btn-primary btn--m width-100">CHỌN THUÊ</a>
             </div>
         </div>
     </div>
@@ -209,7 +288,7 @@ a:hover {
 /* detail */
 .detail {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1.1fr;
     height: auto;
     max-width: 1140px;
     position: relative;
@@ -223,11 +302,110 @@ a:hover {
 
 .detail .left .cover-car-item img {
     width: 100%;
-    height: 600px;
+    height: 500px;
     border-radius: 16px;
     object-fit: cover;
 }
 
+.detail .left .group-name {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 8px;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.detail .left .group-name .shared {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    gap: 16px;
+}
+
+.detail .left .group-name .shared .wrap-ic {
+    width: 50px;
+    padding: 12px;
+    border-radius: 100%;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.detail .left .info-car-desc {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    scroll-margin-top: 110px;
+}
+
+.detail .left .info-car-desc .features-car ul {
+    grid-gap: 24px 16px;
+    gap: 24px 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail .left .info-car-desc .features-car ul li {
+    width: calc(33.33% - 10.67px);
+    display: flex;
+    grid-gap: 16px;
+    gap: 16px;
+}
+.detail .left .info-car-desc .features-car ul li img{
+    width: 24px;
+    height: 24px;
+}
+
+
+.detail .left .info-car-desc .df-align-center h6{
+    display: flex!important;
+    align-items: center!important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.required-papers {
+    display: flex;
+    grid-gap: 24px;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 16px 24px;
+    background: #fef7f4;
+    border-left: 8px solid #f26a2b;
+    border-radius: 8px;
+}
+
+.required-papers .required-papers__item {
+    width: calc(50% - 12px);
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    gap: 16px;
+}
+
+.required-papers .required-papers__item .type__item {
+    display: flex;
+    align-items: center;
+    grid-gap: 4px;
+    gap: 4px;
+}
+
+.required-papers .required-papers__item .type-content {
+    display: flex;
+    grid-gap: 16px;
+    gap: 16px;
+}
+
+.required-papers .required-papers__item .type-content img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* class right */
 .detail .right {
     width: 100%;
     height: auto;
@@ -328,17 +506,18 @@ a:hover {
 }
 
 .detail .right .df-align-center {
-    display: flex!important;
-    align-items: center!important;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .detail .right .rent-box .price-container .price-item p.cost {
-    color:#F83F3F;
+    color: #000000;
     font-weight: 800;
 }
 
 
-.detail .right .rent-box .price-item.total, .detail .right .rent-box .price-total {
+.detail .right .rent-box .price-item.total,
+.detail .right .rent-box .price-total {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -359,9 +538,9 @@ a:hover {
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid #000;
-    text-align: center!important;
-    width: 100%!important;
-    max-width: 100%!important;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
     color: #fff;
     background-color: #5fcf86;
     border-color: #5fcf86;
@@ -374,7 +553,6 @@ a:hover {
     background-color: #5fcf86;
     border-color: #5fcf86;
 }
-
 </style>
 
 
@@ -397,5 +575,13 @@ export default defineComponent({
 
         return { options };
     },
+    data() {
+        return {
+            date: null,
+            
+        };
+    }
+
 });
 </script>
+

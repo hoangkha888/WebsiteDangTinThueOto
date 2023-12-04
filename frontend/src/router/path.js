@@ -50,6 +50,7 @@ const paths= [
                 name: "view-xe",
                 component: () => import("../pages/views/xemchitiet/chitiet.vue")
             },
+
         ]
     }
 ];
