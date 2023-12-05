@@ -34,10 +34,10 @@
                 <h3 style="font-weight: 700; font-size: 2rem;">MAZDA 2 2023 đời mới nhất hiện nay</h3>
                 <div class="group-action d-flex-center-btw">
                     <div class="shared">
-                        <div class="wrap-svg wrap-ic share" style="border: none; display: flex;">
+                        <!-- <div class="wrap-svg wrap-ic share" style="border: none; display: flex;">
                             <i class="fa-solid fa-star" style="color: yellow;"></i>
                             <span class="info">5.0</span>
-                        </div>
+                        </div> -->
                         <div class="fav-item wrap-ic wrap-svg"><i class="fa-thin fa-heart"></i></div>
                     </div>
                 </div>
@@ -47,7 +47,8 @@
                 <h6 style="margin-top: 24px; font-size: 1.25rem; font-weight: 600;">Đặc điểm và các tính năng</h6>
                 <div class="features-car">
                     <ul>
-                        <li> <i class="fa-light fa-person-seat" style="width: 24px; height: 24px; color: black;"></i> Số ghế: <span>10</span></li>
+                        <li> <i class="fa-light fa-person-seat" style="width: 24px; height: 24px; color: black;"></i> Số
+                            ghế: <span>10</span></li>
                         <li> <i class="fa-light fa-gas-pump"></i> Nhiên liệu: <span>Xăng</span></li>
                         <li> <img loading="lazy" src="https://n1-cstg.mioto.vn/v4/p/m/icons/features/map-v2.png"
                                 alt="Mioto - Thuê xe tự lái"> Bản đồ</li>
@@ -84,7 +85,7 @@
                 <div class="required-papers">
                     <div class="required-papers__item">
                         <div class="type__item">
-                            
+
                             <p class="font-12">Phải có 1 trong 2 loại</p>
                         </div>
                         <div class="type-content"><img loading="lazy"
@@ -172,6 +173,28 @@ Quy định khác:
                 </div>
                 <a class="btn btn-primary btn--m width-100">CHỌN THUÊ</a>
             </div>
+
+            <!-- comment -->
+            <form action="#" method="post">
+                <textarea class="comment" name="content" placeholder="Nội dung bình luận" rows="3"></textarea>
+                <button style="background-color: #f26a2b; " type="submit">Gửi</button>
+            </form>
+
+            <div class="comment-box">
+                <ul class="comment-list" style="overflow-y: auto;">
+                    <li v-for="comment in comments" :key="comment.id">
+                        <div class="avt-comment">
+                            <div class="fav-item wrap-ic wrap-svg"><img src="https://cdn-icons-png.flaticon.com/512/147/147142.png" alt=""></div>
+                            <div class="author">
+                                <strong>{{ comment.author }}</strong>  <span style="margin-left: 5px; font-size: 12px;">ngày đăng: {{ comment.created_at }}</span>
+                            </div>
+                        </div>
+                        <span style="margin-left: 5px;" class="comment-content">{{ comment.content }}</span>
+                    </li>
+                </ul>
+            </div>
+
+
         </div>
     </div>
 </template>
@@ -352,15 +375,16 @@ a:hover {
     grid-gap: 16px;
     gap: 16px;
 }
-.detail .left .info-car-desc .features-car ul li img{
+
+.detail .left .info-car-desc .features-car ul li img {
     width: 24px;
     height: 24px;
 }
 
 
-.detail .left .info-car-desc .df-align-center h6{
-    display: flex!important;
-    align-items: center!important;
+.detail .left .info-car-desc .df-align-center h6 {
+    display: flex !important;
+    align-items: center !important;
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 24px;
@@ -542,8 +566,8 @@ a:hover {
     width: 100% !important;
     max-width: 100% !important;
     color: #fff;
-    background-color: #5fcf86;
-    border-color: #5fcf86;
+    background-color: #F83F3F;
+    border-color:#F83F3F;
     padding: 16px 24px;
 }
 
@@ -553,6 +577,59 @@ a:hover {
     background-color: #5fcf86;
     border-color: #5fcf86;
 }
+
+.detail .right .comment{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.detail .right .comment-box{
+    width: 100%;
+    height: 565px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.detail .right .comment-box ul{
+    overflow-y: auto;
+    height: 565px;
+    padding-left: 10px;
+}
+
+.detail .right .comment-box ul li{
+    background: #E4E6EB;
+    border-radius: 15px;
+    width: 96%;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.detail .right .comment-box ul li .avt-comment{
+    display: flex;
+}
+
+.detail .right .comment-box ul li .avt-comment .author{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.detail .right .comment-box ul li img{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+
 </style>
 
 
@@ -565,23 +642,69 @@ export default defineComponent({
     components: {
         Splide,
         SplideSlide,
-    },
 
+    },
     setup() {
         const options = {
             rewind: true,
             gap: '1rem',
         };
-
-        return { options };
+        return { 
+            options,
+            
+        };
     },
     data() {
         return {
             date: null,
-            
+            comments: [
+            {
+                id: 1,
+                author: 'John Doe',
+                content: 'This is a great website!',
+                created_at: '2023-07-20',
+            },
+            {
+                id: 2,
+                author: 'Jane Doe',
+                content: 'I really like the design of this website.',
+                created_at: '2023-07-20',
+            },
+            {
+                id: 3,
+                author: 'Jane Doe',
+                content: 'I really like the design of this website.',
+                created_at: '2023-07-20',
+            },
+            {
+                id: 4,
+                author: 'Jane Doe',
+                content: 'I really like the design of this website.',
+                created_at: '2023-07-20',
+            },
+            {
+                id: 5,
+                author: 'Jane Doe',
+                content: 'I really like the design of this website.',
+                created_at: '2023-07-20',
+            },
+            {
+                id: 6,
+                author: 'Jane Doe',
+                content: 'I really like the design of this website.',
+                created_at: '2023-07-20',
+            },
+            {
+                id: 7,
+                author: 'Jane Doe',
+                content: 'I really like the design of this website.',
+                created_at: '2023-07-20T09:00:00.000Z',
+            },
+            ],
         };
     }
 
 });
 </script>
+
 

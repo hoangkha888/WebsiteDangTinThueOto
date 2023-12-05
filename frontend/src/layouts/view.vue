@@ -14,7 +14,9 @@
     import TheFooter from '../components/TheFooter.vue';
     // import  abc from '../pages/views/login/dangnhap.vue'
 
+
     export default{
+
         provide() {
             return {
             route: this.$route,
