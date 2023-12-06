@@ -13,13 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('nguoidung', function (Blueprint $table) {
-            $table->id('MaNguoiDung');
-            $table->string('HoTen');
-            $table->string('TenDangNhap')->unique();
-            $table->string('Sdt');
-            $table->string('MatKhau');
-            $table->string('change_pass_at')->nullable();
+        Schema::create('quyentruycap', function (Blueprint $table) {
+            $table->id('MaQuyen');
+            $table->string('TenQuyen');
             $table->timestamps();
         });
     }
@@ -31,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('nguoidung');
+        Schema::dropIfExists('quyentruycap');
     }
 };
