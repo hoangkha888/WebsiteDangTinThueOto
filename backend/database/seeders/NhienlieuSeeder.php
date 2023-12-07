@@ -20,13 +20,16 @@ class NhienlieuSeeder extends Seeder
 
         $nhienlieu = [
             [
-                "TenNhienLieu" => "xămg",
+                "TenNhienLieu" => "Xămg",
             ],
             [
-                "TenNhienLieu" => "hHydrogen ",
+                "TenNhienLieu" => "Hydrogen",
             ],
             [
-                "TenNhienLieu" => "dầu", 
+                "TenNhienLieu" => "Dầu DieSel", 
+            ],
+            [
+                "TenNhienLieu" => "Điện", 
             ],
             
         ];

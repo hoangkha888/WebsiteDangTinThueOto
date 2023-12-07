@@ -17,8 +17,8 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         $this->call([
-            NguoidungSeeder::class,
-            // HinhanhSeeder::class,
+           // NguoidungSeeder::class,
+            HinhanhSeeder::class,
             // NhienlieuSeeder::class,
             // XaphuongSeeder::class,
             // QuanhuyenSeeder::class,

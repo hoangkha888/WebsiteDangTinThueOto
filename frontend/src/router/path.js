@@ -59,6 +59,33 @@ const paths= [
 
 
         ]
+    },
+    {
+        path:"/chuxe",
+        component: () => import("../layouts/chuxe.vue"),
+        children:[
+            {
+                path: "dangtin",
+                name: "chuxe-dangtin",
+                component: () => import("../pages/views/chuxe/dangtin.vue")
+            },
+            {
+                path: "danhsachxe",
+                name: "chuxe-danhsachxe",
+                component: () => import("../pages/views/chuxe/danhsachxe.vue")
+            },
+            {
+                path: "pheduyet",
+                name: "chuxe-pheduyet",
+                component: () => import("../pages/views/chuxe/pheduyet.vue")
+            },
+            {
+                path: "thongke",
+                name: "chuxe-thongke",
+                component: () => import("../pages/views/chuxe/thongke.vue")
+            },
+            
+        ]
     }
 ];
 

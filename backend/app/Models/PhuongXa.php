@@ -19,4 +19,9 @@ class PhuongXa extends Model
         'created_at',
         'updated_at',
     ];
+
+    public function quanhuyen()
+    {
+        return $this->belongsTo(QuanHuyen::class, 'fk_MaQuanHuyen'); // assuming QuanHuyen model exists
+    }
 }

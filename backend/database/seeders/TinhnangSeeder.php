@@ -50,6 +50,13 @@ class TinhnangSeeder extends Seeder
             [
                 "TenTinhNang" => "Bản đồ",
             ],
+            [
+                "TenTinhNang" => "Ghế trẻ em",
+            ],
+            [
+                "TenTinhNang" => "Cửa sổ trời",
+            ],
+            
             
         ];
 
