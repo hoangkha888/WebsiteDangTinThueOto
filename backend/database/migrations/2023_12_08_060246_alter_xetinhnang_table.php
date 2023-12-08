@@ -13,14 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('tindang', function (Blueprint $table) {
-            $table->unsignedBigInteger('fk_MaNguoiDung');
+        Schema::table('xetinhnang', function (Blueprint $table) {
             $table->unsignedBigInteger('fk_MaXe');
-            $table->unsignedBigInteger('fk_MaXaPhuong');
+            $table->unsignedBigInteger('fk_MaTinhNang');
 
-            $table->foreign('fk_MaNguoiDung')->references('MaNguoiDung')->on('nguoidung');
             $table->foreign('fk_MaXe')->references('MaXe')->on('xe');
-            $table->foreign('fk_MaXaPhuong')->references('MaXaPhuong')->on('xaphuong');
+            $table->foreign('fk_MaTinhNang')->references('MaTinhNang')->on('tinhnang');
         });
     }
 

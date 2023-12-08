@@ -48,9 +48,5 @@ class Xe extends Model
         return $this->belongsTo(NhienLieu::class, 'fk_MaNhienLieu', 'MaNhienLieu');
     }
 
-    public function tinhnang()
-    {
-        return $this->belongsTo(TinhNang::class, 'fk_MaTinhNang', 'MaTinhNang');
-    }
 
 }

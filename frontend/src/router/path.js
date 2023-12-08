@@ -51,9 +51,19 @@ const paths= [
                 component: () => import("../pages/views/xemchitiet/chitiet.vue")
             },
             {
-                path: "test",
-                name: "view-test",
-                component: () => import("../pages/views/xemchitiet/CommentBox.vue")
+                path: "thuexe",
+                name: "view-thuexe",
+                component: () => import("../pages/views/trangchu/thuexe.vue")
+            },
+            {
+                path: "gioithieu",
+                name: "view-gioithieu",
+                component: () => import("../pages/views/trangchu/gioithieu.vue")
+            },
+            {
+                path: "tintuc",
+                name: "view-tintuc",
+                component: () => import("../pages/views/trangchu/tintuc.vue")
             },
             
 

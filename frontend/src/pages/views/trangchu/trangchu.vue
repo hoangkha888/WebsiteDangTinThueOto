@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <!-- <nav>
     <ul>
       <li><a href="#">TRANG CHỦ</a></li>
       <li><a href="#">GIỚI THIỆU</a></li>
@@ -7,7 +7,7 @@
       <li><a href="#">TIN TỨC</a></li>
       <li><a href="#">LIÊN HỆ</a></li>
     </ul>
-  </nav>
+  </nav> -->
   <!-- slice show -->
   <div class="slide">
     <Splide :options="options" aria-label="My Favorite Images">
