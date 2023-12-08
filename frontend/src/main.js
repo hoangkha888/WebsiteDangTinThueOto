@@ -25,6 +25,7 @@ import {
     Radio,
     RadioGroup,
     Table,
+    Avatar,
 
 } from 'ant-design-vue'
 
@@ -67,6 +68,7 @@ app.use(Upload);
 app.use(Radio);
 app.use(RadioGroup);
 app.use(Table);
+app.use(Avatar);
 
 
 app.component('VueDatePicker', VueDatePicker);
