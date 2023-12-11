@@ -2,21 +2,21 @@
     <div class="form-box">
         <div class="center">
             <h1>Đăng nhập</h1>
-            <form method="post">
+            <form @submit.prevent="postuser()">
                 <div class="txt_field">
-                    <input type="text" required>
+                    <input type="text" v-model="username" required>
                     <span></span>
                     <label>Tài Khoản</label>
                 </div>
                 <div class="txt_field">
-                    <input type="password" required>
+                    <input type="password" v-model="password" required>
                     <span></span>
                     <label>Mật Khẩu</label>
                 </div>
                 <div class="pass">Quên Mật Khẩu?</div>
                 <input type="submit" value="Đăng nhập">
                 <div class="signup_link">
-                    Bạn chưa có tài khoản? <a href="#">Đăng ký</a>
+                    Bạn chưa có tài khoản? <a v-on:click="register">Đăng ký</a>
                 </div>
             </form>
         </div>
@@ -152,3 +152,70 @@ input[type="submit"]:hover {
 .signup_link a:hover {
     text-decoration: underline;
 }</style>
+
+
+<script>
+import { defineComponent, ref, reactive, toRefs } from "vue";
+
+export default defineComponent({   
+    methods: {
+        register(){
+            this.$router.push({ name: "view-dangky" });
+        }
+    },
+    setup(){
+
+        const user = reactive({
+            username: "",
+            password: ""
+        });
+
+        const postuser = () => {
+            axios.post("http://127.0.0.1:8000/api/dangnhap", user)
+            .then((response) => {
+                console.log(response)
+            })
+            .catch((error) => {
+                console.log(error)
+            });
+        }
+
+
+        return{
+        ...toRefs(user),
+        postuser
+        }
+    }
+
+
+});
+</script>
+
+
+
+,
+    async login() {
+      // Validate username and password
+      if (!this.username || !this.password) {
+        alert("Vui lòng nhập đầy đủ thông tin!");
+        return;
+      }
+
+      // Use axios or other libraries to send POST request to API
+      const response = await axios.post("http://127.0.0.1:8000/api/dangnhap", {
+        username: this.username,
+        password: this.password,
+      });
+
+      // Check response status
+      if (response.status === 200) {
+        // Login successful, store user data and redirect to dashboard
+        // ...
+      } else {
+        alert("Sai tài khoản hoặc mật khẩu!");
+      }
+    },
+
+
+  },
+

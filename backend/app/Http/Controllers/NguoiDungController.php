@@ -9,22 +9,51 @@ use App\Models\NguoiDung;
 
 class NguoiDungController extends Controller
 {
-    public function show($id)
+    public function show()
     {
-        return  NguoiDung::findOrFail($id);
+        // return  NguoiDung::findOrFail($id);
+        $tindang = \DB::table("nguoidung")->get();
+        return response()->json($tindang);
     }
 
+    public function dangnhap(Request $request)
+    {
+        $username = $request->input('username');
+        $password = $request->input('password');
+        
 
-    public function index(){
-        $nguoidung = Nguoidung::
-            join('contacts', 'users.id', '=', 'contacts.user_id')
-            ->join('orders', 'users.id', '=', 'orders.user_id')
-            ->select(
-                'users.*',
-                'contacts.phone',
-                'orders.price')
-            ->get();
+        // $user = NguoiDung::where('TenDangNhap', $username)->first();
+        $user = \DB::table("nguoidung")
+        ->where('TenDangNhap', $username)
+        ->first();
 
-        return response()->json($nguoidung);
+        // if($user->TenDangNhap ===  $username){
+        //     return response()->json([
+        //                 'status' => 200,
+        //                 'message' => 'đúng rồi!',
+        //             ]);
+        // }
+
+        if ($user && $user->MatKhau ===  $password) {
+            // Login successful
+
+            return response()->json([
+                'status' => 200,
+                'message' => 'Đăng nhập thành công',
+            ]);
+        } else {
+            // Login failed
+            return response()->json([
+                'status' => 401,
+                'message' => 'Sai tài khoản hoặc mật khẩu!',
+            ]);
+        }
+
+
+
+        // return   $password;
     }
+
+       
+
 }

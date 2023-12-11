@@ -28,6 +28,13 @@
         </router-link>
       </a-menu-item>
 
+      <a-menu-item key="admin-caidat">
+        <router-link :to = " { name: 'admin-caidat'}">
+            <span> Cài Đặt</span>
+        </router-link>
+      </a-menu-item>
+
+
 
     </a-menu>
 </template>

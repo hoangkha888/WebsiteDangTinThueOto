@@ -1,12 +1,12 @@
 <template>
-     <TheHeader v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
-    <Nav v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
+     <TheHeader v-if="!(this.$route.path === '/dangnhap' || this.$route.path === '/dangky')" />
+    <Nav v-if="!(this.$route.path === '/dangnhap' || this.$route.path === '/dangky')" />
     <div class="container-fluid p-0">
         <div class="row">
             <router-view></router-view>
         </div>
     </div>
-        <TheFooter v-if="!(this.$route.path === '/views/dangnhap' || this.$route.path === '/views/dangky')" />
+        <TheFooter v-if="!(this.$route.path === '/dangnhap' || this.$route.path === '/dangky')" />
 </template>
 
 <script>

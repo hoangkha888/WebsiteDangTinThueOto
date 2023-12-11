@@ -4,7 +4,7 @@
             <div class="nav">
                 <div class="left">
                     <a-menu v-model:openKeys="openKeys" v-model:selectedKeys="selectedKeys" mode="horizontal"
-                        :items="items">
+                        >
                         <a-menu-item key="chuxe-dangtin">
                             <router-link :to="{ name: 'chuxe-dangtin' }">
                                 <span> <i class="fa-light fa-user"></i> Đăng tin</span>

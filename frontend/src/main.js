@@ -3,7 +3,7 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 import { createPinia } from 'pinia'
-import { UploadOutlined, PlusOutlined } from '@ant-design/icons';
+import { UploadOutlined} from '@ant-design/icons';
 import router from './router/index.js'
 
 import axios from 'axios';
@@ -15,15 +15,12 @@ import {
     List,
     Menu,
     Form,
-    FormItem,
     Input,
     Select,
     DatePicker,
-    RangePicker,
     InputNumber,
     Upload,
     Radio,
-    RadioGroup,
     Table,
     Avatar,
 
@@ -58,15 +55,12 @@ app.use(List);
 app.use(Menu);
 app.use(VueSplide);
 app.use(Form);
-app.use(FormItem);
 app.use(Input);
 app.use(Select);
 app.use(DatePicker);
-app.use(RangePicker);
 app.use(InputNumber);
 app.use(Upload);
 app.use(Radio);
-app.use(RadioGroup);
 app.use(Table);
 app.use(Avatar);
 
@@ -78,3 +72,4 @@ app.component('UploadOutlined', UploadOutlined);
 app.mount('#app');
 
 app.config.globalProperties.$message = message;
+

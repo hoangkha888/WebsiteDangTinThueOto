@@ -17,12 +17,12 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         $this->call([
-           // NguoidungSeeder::class,
+        //    NguoidungSeeder::class,
             //HinhanhSeeder::class,
             // NhienlieuSeeder::class,
             // XaphuongSeeder::class,
             // QuanhuyenSeeder::class,
-            TinhnangSeeder::class,
+            // TinhnangSeeder::class,
             // HangxeSeeder::class,
             // XeSeeder::class,
             // TindangSeeder::class,

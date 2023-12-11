@@ -17,15 +17,6 @@ class NguoidungSeeder extends Seeder
      */
     public function run()
     {
-        // \DB::table("nguoidung")->insert([
-        //     "HoTen" => "Hoàng Văn Khá",
-        //     "TenDangNhap" => "kha123",
-        //     "Sdt" => "0123456789",
-        //     "MatKhau" => Hash::make("123"),
-        //     "anhdaidien" => "https://cdn-icons-png.flaticon.com/256/147/147142.png",
-        //     "QuyenTruyCap" => "admin"
-
-        // ]);
 
         $nguoidung = [
             [

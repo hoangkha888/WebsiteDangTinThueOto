@@ -23,12 +23,18 @@ const paths= [
                 name: "admin-thongke",
                 component: () => import("../pages/admin/thongke/index.vue")
             },
+            {
+                path: "caidat",
+                name: "admin-caidat",
+                component: () => import("../pages/admin/caidat/index.vue")
+            },
            
         ]
     },
     {
-        path:"/views",
+        path:"/",
         component: () => import("../layouts/view.vue"),
+        redirect: '/trangchu',
         children:[
             {
                 path: "dangnhap",

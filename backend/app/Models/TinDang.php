@@ -11,13 +11,15 @@ class TinDang extends Model
 
     protected $table = 'tindang';
 
-    protected $fillable = [
-        'TieuDe',
-        'MoTa',
-        'GiaThue',
-        'DiaChiNhanXe',
-        'TrangThai',
-    ];
+    // protected $fillable = [
+    //     'TieuDe',
+    //     'MoTa',
+    //     'GiaThue',
+    //     'DiaChiNhanXe',
+    //     'TrangThai',
+    // ];
+
+    protected $guarded = [];
 
     protected $hidden = [
         'id',

@@ -33,7 +33,12 @@ class Xe extends Model
         'SoGhe',
         'TinhTrang',
         'NamSx',
+        'fk_MaHangXe',
+        'fk_MaNhienLieu',
+        'fk_MaHinhAnh'
     ];
+
+    // protected $guarded = [];
 
     /**
      * Relationships
@@ -48,5 +53,9 @@ class Xe extends Model
         return $this->belongsTo(NhienLieu::class, 'fk_MaNhienLieu', 'MaNhienLieu');
     }
 
+    public function hinhanh()
+    {
+        return $this->belongsTo(NhienLieu::class, 'fk_MaHinhAnh', 'MaHinhAnh');
+    }
 
 }
